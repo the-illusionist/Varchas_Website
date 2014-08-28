@@ -1,0 +1,80 @@
+/* Ticker Styling */
+.ticker-wrapper.has-js {
+	margin: 20px 0px -190px 1165px;
+	padding: 0px 20px;
+	width: 200px;
+	height: 170px;
+	display: block;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	background-color: #09F;
+	font-size: 0.75em;
+	
+}
+.ticker {
+	width: 180px;
+	height: 150px;
+	display: block;
+	position: relative;
+	overflow: hidden;
+	background-color: #09F;
+	
+}
+.ticker-title {
+	padding-top: 20px;
+	color: #C03;
+	font-size:15px;
+	margin-left: 30px;
+	font-weight: bold;
+	background-color: #09F;
+	/* text-transform: uppercase; */
+}
+.ticker-content {
+	margin-top: 10px;
+	margin-left: -90px;
+	padding-top: 12px;
+	font-size:15px;
+	position: relative;
+	color: #1F527B;
+	font-weight: bold;
+	background-color:#09F ;
+	overflow: hidden;
+	text-align: center;
+	white-space: nowrap;
+	line-height: 1.2em;
+}
+.ticker-swipe {
+	padding-top: 9px;
+	position: absolute;
+	top: 0px;
+	background-color: #09F;
+	display: block;
+	width: 800px;
+	height: 23px; 
+}
+.js-hidden {
+	display: none;
+}
+.no-js-news {
+	padding: 10px 0px 0px 45px; 
+	color: #F8F0DB;
+}
+.left .ticker-swipe {
+	/*left: 80px;*/
+}
+.left .ticker-controls, .left .ticker-content, .left .ticker-title, .left .ticker {
+    float: left;
+}
+.left .ticker-controls {
+    padding-left: 6px;
+}
+.right .ticker-swipe {
+	/*right: 80px;*/
+}
+.right .ticker-controls, .right .ticker-content, .right .ticker-title, .right .ticker {
+    float: right;
+}
+.right .ticker-controls {
+    padding-right: 6px;
+}

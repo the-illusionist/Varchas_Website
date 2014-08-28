@@ -1,0 +1,69 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<script type="text/javascript" src="jquery-1.7.2.min.js"></script>
+<script type="text/javascript">
+		list="";
+        reqObj=null;
+        function fetch_data(){
+                document.getElementById("criteria_values").innerHTML="";
+                document.getElementById("submit_values").innerHTML="";
+            if(window.XMLHttpRequest){
+                reqObj=new XMLHttpRequest();
+            }else {
+                reqObj=new ActiveXObject("Microsoft.XMLHTTP");
+            }
+            
+            reqObj.onreadystatechange=process_fetch_data;
+			var parameter="check=1&criteria="+document.register.criteria.value;
+            reqObj.open("POST","database.jsp?"+parameter,true);
+            reqObj.send(null);
+        }
+        function process_fetch_data(){
+            if(reqObj.readyState==4){
+                document.getElementById("criteria_values").innerHTML=reqObj.responseText;
+            }
+        }
+        function database_data(){
+            if(window.XMLHttpRequest){
+                reqObj=new XMLHttpRequest();
+            }else {
+                reqObj=new ActiveXObject("Microsoft.XMLHTTP");
+            }
+            reqObj.onreadystatechange=process_database_data;
+			var parameter="check=2&criteria="+document.register.criteria.value+"&values="+document.register.criteriavalue.value;
+            reqObj.open("POST","database.jsp?"+parameter,true);
+            reqObj.send(null);
+        }
+        function process_database_data(){
+            if(reqObj.readyState==4){
+                document.getElementById("databasedata").innerHTML=reqObj.responseText;
+            }
+        }
+</script>
+</head>
+
+<body>
+<form name="register">
+<table>
+<tr>
+<td>
+<select name="criteria" id="criteria"  onchange="fetch_data()"/>
+<option value="">Select Criteria...</option>
+<option value="regplace">College</option>
+<option value="regsports">Sports</option>
+</select>
+</td>
+<td id="criteria_values">
+</td>
+<td id="submit_values">
+</td>
+</tr>
+</table>
+</form>
+<div id="databasedata">
+</div>
+</body>
+</html>

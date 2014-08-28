@@ -1,0 +1,499 @@
+
+
+#fb
+{
+	position:absolute;right:13%;
+bottom:1%;
+opacity:0.8;
+}
+#fb:hover{
+opacity:1;
+	
+}
+#twitter
+{
+	position:absolute;right:8%;
+bottom:1%;
+opacity:0.8;
+
+}
+#twitter:hover{
+opacity:1;
+	
+}
+#coolage
+{
+	position:absolute;right:18%;
+bottom:1%;
+opacity:0.8;
+
+}
+#twitter:hover{
+opacity:1;
+	
+}
+#youtube
+{
+	position:absolute;right:3%;
+bottom:1%;
+opacity:.8;
+}
+#youtube:hover{
+opacity:1;
+	
+}
+#hosp{
+	position:absolute;
+left:47%;
+bottom:2%;
+
+
+}
+#pronite{
+	position:absolute;
+left:38%;
+bottom:2%;
+
+
+}
+#sechedule{
+	position:absolute;
+left:29%;
+bottom:2%;
+}
+#gal{
+	position:absolute;
+left:56%;
+bottom:2%;
+
+
+}
+
+#contact
+{
+	position:absolute;
+left:20%;
+bottom:2%;}
+
+
+#sponsor1
+{
+	position:absolute;
+left:11%;
+bottom:2%;}
+
+
+#archive
+{
+	position:absolute;
+bottom:2%;
+left:2%;
+
+
+}
+
+#date
+{
+position:absolute;
+top:90px;
+left:80px;
+}
+#date h2 
+{
+font-size:25px;
+
+color:#ccc;
+}
+
+#formleft{
+position:absolute;
+top:12%;
+width:50%;
+height:70%;
+left:0 px;
+}
+#formright{
+position:absolute;
+top:12%;
+width:50%;
+height:70%;
+right:0px;
+}
+#registration fieldset {
+      padding: 1px;
+      }
+	  
+input#text {
+      -webkit-border-radius: 15px;
+      -moz-border-radius: 15px;
+      border-radius: 15px;
+      border:solid 1px #444;
+      font-size: 14px;
+      width: 46%;
+      
+      -moz-box-shadow: 0px 1px 0px #777;
+      -webkit-box-shadow: 0px 1px 0px #777;
+	 
+      color:#333;
+      text-shadow:0px 1px 0px #FFF;
+}
+input#inputcollege {
+      -webkit-border-radius: 15px;
+      -moz-border-radius: 15px;
+      border-radius: 15px;
+      border:solid 1px #444;
+      font-size: 14px;
+      width: 46%;
+      
+      -moz-box-shadow: 0px 1px 0px #777;
+      -webkit-box-shadow: 0px 1px 0px #777;
+	 
+      color:#333;
+      text-shadow:0px 1px 0px #FFF;
+}
+input#mob {
+      -webkit-border-radius: 15px;
+      -moz-border-radius: 15px;
+      border-radius: 15px;
+      border:solid 1px #444;
+      font-size: 14px;
+      width: 40%;
+     
+      -moz-box-shadow: 0px 1px 0px #777;
+      -webkit-box-shadow: 0px 1px 0px #777;
+	 
+      color:#333;
+      text-shadow:0px 1px 0px #FFF;
+}
+input#pass {
+      -webkit-border-radius: 15px;
+      -moz-border-radius: 15px;
+      border-radius: 15px;
+      border:solid 1px #444;
+      font-size: 14px;
+      width:46%;
+      
+      -moz-box-shadow: 0px 1px 0px #777;
+      -webkit-box-shadow: 0px 1px 0px #777;
+	 
+      color:#333;
+      text-shadow:0px 1px 0px #FFF;
+}
+input#name {
+      -webkit-border-radius: 15px;
+      -moz-border-radius: 15px;
+      border-radius: 15px;
+      border:solid 1px #444;
+      font-size: 14px;
+      width: 21%;
+      
+      -moz-box-shadow: 0px 1px 0px #777;
+      -webkit-box-shadow: 0px 1px 0px #777;
+	 
+      color:#333;
+      text-shadow:0px 1px 0px #FFF;
+}	  
+select#slect {
+      -webkit-border-radius: 15px;
+      -moz-border-radius: 15px;
+      border-radius: 15px;
+      border:solid 1px #444;
+      font-size: 14px;
+      width: 46%;
+	
+   
+      -moz-box-shadow: 0px 1px 0px #777;
+      -webkit-box-shadow: 0px 1px 0px #777;
+	
+      color:#333;
+      text-shadow:0px 1px 0px #FFF;
+}
+select#dob {
+      -webkit-border-radius: 15px;
+      -moz-border-radius: 15px;
+      border-radius: 15px;
+      border:solid 1px #444;
+      font-size: 14px;
+      width: 15%;
+	
+      -moz-box-shadow: 0px 1px 0px #777;
+      -webkit-box-shadow: 0px 1px 0px #777;
+	
+      color:#333;
+      text-shadow:0px 1px 0px #FFF;
+}	
+textarea#text {
+      -webkit-border-radius: 15px;
+      -moz-border-radius: 15px;
+      border-radius: 15px;
+      border:solid 1px #444;
+      font-size: 14px;
+    
+	
+     
+      -moz-box-shadow: 0px 1px 0px #777;
+      -webkit-box-shadow: 0px 1px 0px #777;
+	 
+	  
+      color:#333;
+      text-shadow:0px 1px 0px #FFF;
+}	    
+
+
+#registration h2 {
+	color: #fff;
+	text-shadow: 0px -1px 0px #000;
+	border-bottom: solid #181818 1px;
+	-moz-box-shadow: 0px 1px 0px #3a3a3a;
+	text-align: center;
+	
+	margin: 0px;
+	font-weight: normal;
+	font-size: 25px;
+	font-family: Arial, Helvetica, Tahoma, sans-serif;
+	}
+#registration h5 {
+	color: #FFFFCC;
+	text-shadow: 0px -1px 0px #000;
+	border-bottom: solid #181818 1px;
+	-moz-box-shadow: 0px 1px 0px #3a3a3a;
+	text-align: center;
+	
+	margin: 0px;
+	font-weight: normal;
+	font-size:18px;
+	font-family: Arial, Helvetica, Tahoma, sans-serif;
+	}
+#registration h5 a{
+	color: #5CE68A;
+	margin: 0px;
+	font-weight: normal;
+	font-size:18px;
+	font-family: Arial, Helvetica, Tahoma, sans-serif;
+	}
+
+	
+#register1 {
+	float: center;
+ cursor:pointer;
+	}	
+ #registration p {
+      position: relative;
+      }
+	  
+fieldset label/* .infield label added by JS */ {
+    color: #fff;
+    text-shadow: 0px 1px 0px #fff;
+    position: absolute;
+    text-align: left;
+	
+    top: 3px !important;
+    left: 8%;
+    line-height: 29px;
+    }
+#RegisterUserForm label.error {
+    color: #FB3A3A;
+    display: inline-block;
+    margin: 4px 0 5px 125px;
+    padding: 0;
+height:30 px;
+   text-align: left;
+    width: 20%;
+left:60%;
+
+}
+#contact_left{
+position:absolute;
+left:0;
+width:33%;
+height:100 px;
+text-size:17 px;
+text-align:center;
+ bottom:20 px;
+
+}
+
+#contact_right{
+position:absolute;
+right:0;
+width:33%;
+text-size:17 px;
+height:100 px;
+text-align:center;
+
+}
+#contact_center{
+position:absolute;
+left:33%;
+width:34%;
+height:100px;
+text-size:17 px;
+text-align:center;
+ 
+}
+
+#contact_main_left{
+position:absolute;
+left:1%;
+width:50%;
+height:100 px;
+text-size:17 px;
+text-align:center;
+
+}
+#contact_main_right{
+position:absolute;
+right:0;
+width:50%;
+text-size:17 px;
+height:100px;
+text-align:center;
+}
+
+#main_heading{
+position:absolute;
+left:33%;
+width:34%;
+height:100px;
+text-size:33px;
+text-align:center;
+}
+#heading_left
+{
+position:absolute;
+width:33%;
+height:100 px;
+text-size:33 px;
+text-align:center;
+}
+#heading_right{
+position:absolute;
+right:0;
+height:100 px;
+width:33%;
+text-size:33px;
+text-align:center;
+}
+
+#slider_sponsor{
+position:absolute;
+left:-24px;
+top:27%;
+width:150px;
+height:100px;
+}
+#conclave{
+position:absolute;
+left:80%;
+bottom:15%;
+width:150px;
+height:40px;
+}
+#slider111{
+position:absolute;
+left:400px;
+top:10%;
+width:150px;
+height:100px;
+}
+
+h2{
+color:#ff00ff;
+font-size:25 px;
+text-align:center;
+}
+span.B
+{
+color:#33415E;
+font-weight:580;
+font-size:19px;
+text-align:center;
+}
+span.A  a{
+color:#0052A3;
+
+font-size:22px;
+font-weight:580;
+text-decoration:None;
+text-align:center;
+}
+span.A  a:hover {color:#5E5E19
+;}
+span.C a{
+color:#19195E;
+font-size:20px;
+font-weight:580;
+text-decoration:None;
+text-align:center;
+}
+.sub-right{
+
+position: relative;
+font-size:25px;
+right:10%;
+font-family:Century Gothic;
+width:50%;
+float:right;
+font-weight:bold;
+margin-top:1%;
+color:#475359;
+text-align:center;
+}
+.sub-left{
+
+	position: relative;
+font-size:25px;
+font-family:Century Gothic;
+left:10%;
+margin-top:1%;
+float:left;
+width:50%;
+color:#475359;
+
+font-weight:bold;
+text-align:center;
+}
+.sub-main{
+margin-bottom:2%;
+position: relative;
+font-size:27px;
+font-family:Century Gothic;
+width:70%;
+color:#363636;
+font-weight:bold;
+margin-top:1%;
+text-align:center;
+}
+.contact-left{
+margin-bottom:2%;
+position:absolute;
+font-size:15px;
+left:5%;
+font-family:Century Gothic;
+width:40%;
+margin-top:2%;
+text-align:center;
+}
+.contact-right
+{
+margin-bottom:2%;
+position:absolute;
+font-size:15px;
+right:5%;
+font-family:Century Gothic;
+width:40%;
+margin-top:1%;
+text-align:center;
+}
+.sub-main-main{
+margin-bottom:2%;
+position: relative;
+font-size:30px;
+font-family:Century Gothic;
+width:70%;
+color:#1E1E27;
+font-weight:bold;
+margin-top:1%;
+text-align:center;
+
+}

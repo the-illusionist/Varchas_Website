@@ -1,0 +1,84 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+ <meta name="keywords" content="ignus, iit jodhpur, iitj, 2012, 2011, taksh, varchas, iit jodhpur fest, annual, sports, technical, tech, cult, cultural, ignus iit jodhpur" />
+
+<meta name="description" content="The inter-college sports fest of IIT JOdhpur" />
+
+        <title>Varchas 2K14</title>
+        <link rel="icon" type="image/png" href="logo.jpg" />
+        
+
+        <script type="text/javascript" src="jquery-1.8.0.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+               $(".demoMenu a").click(function(event){
+                   switch($(this).attr("class")) {
+                       case "demo1":
+                           $("#demo iframe").attr("src", "demo1.php");
+                       break;
+                       
+                   }
+                   $(".demoMenu a").removeClass("active");
+                   $(this).addClass("active");
+                   
+                   return false;
+               });
+            });
+        </script>
+    </head>
+    <body>
+        
+        <style>
+            body {
+                padding:0;
+                margin:0;
+            }
+            
+            .demoMenu {
+                position: absolute;
+                width:144px;
+                background:#121315;
+                top:40px;
+                left:40px;
+                padding:10px;
+            }
+            .demoMenu li {
+                list-style: none;
+                text-decoration: none;
+                padding:5px;
+            }
+            .demoMenu li a {
+                font-family: Arial, Helvetica, sans-serif;
+                color: #88898a;
+                font-size:12px;
+                text-decoration: none;
+                font-weight: bold;
+            }
+            
+            .demoMenu li a:hover, .demoMenu li a.active {
+                text-decoration: none;
+                color:#FFF;
+            }
+            
+            body {
+                overflow: hidden;
+            }
+            #demo iframe {
+                width:100%;
+                height:9999px;
+            }
+            
+            
+        </style>
+        
+   
+        
+        <div id="demo">
+            <iframe src="demo1.php"></iframe>
+        </div>
+
+    </body>
+</html>

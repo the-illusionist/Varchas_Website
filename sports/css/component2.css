@@ -1,0 +1,329 @@
+body
+{
+	background-color: #000;
+	 background-repeat:no-repeat; 
+	 background-size:100%;
+}
+
+.rb-grid {
+	list-style: none;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.rb-grid li[class^="icon-"] {
+	width: 24%;
+	height: 10em;
+	margin: 0.5%;
+	background: #c7cbf7;
+	color: #fff;
+	display: block;
+	float: left;
+	padding: 1.6em;
+	cursor: pointer;
+	position: relative;
+}
+
+.rb-grid li.rb-span-2 {
+	width: 49%;
+}
+
+.rb-grid li.rb-span-4 {
+	width: 99%;
+}
+
+.rb-grid li h3 {
+	font-size:26px;
+	font-family:"Arial", cursive;
+	color:#003;
+	margin-top:60px;
+	
+}
+
+#gamecontent
+{
+	font-size:36px;
+	font-family:"Comic Sans MS", cursive;
+	top:10%;
+	left:10%;
+	position:absolute;
+}
+#game
+{
+	text-align:center;
+	padding-left:5%;
+	padding-right:5%;
+	font-family:"Comic Sans MS", cursive;
+}
+
+#rulelist
+{
+	top:20%;
+	left:5%;
+	text-align:left;
+	position:absolute;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	font-weight:bold;
+	padding-right:10px;
+}
+
+#rulelist em
+{
+	top:150%;
+	position:absolute;
+}
+
+#contact
+{
+	font-family:"Comic Sans MS", cursive;
+	font-weight:100;
+	bottom:20%;
+	left:5%;
+	position:absolute;
+}
+.rb-grid li[class^="icon-"]:before,
+.rb-grid li[class*=" icon-"]:before {
+	font-size: 10em;
+	position: absolute;
+	display: block;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	/*line-height: 3;*/
+	opacity: 0.4;
+	text-align: right;
+	pointer-events: none;
+}
+
+/*.rb-temp {
+	display: block;
+	font-size: 2em;
+	opacity: 0.5;
+	-webkit-transition: opacity 0.3s ease-in-out;
+	-moz-transition: opacity 0.3s ease-in-out;
+	transition: opacity 0.3s ease-in-out;
+}*/
+
+.rb-grid li:hover .rb-temp {
+	opacity: 1;
+}
+
+.rb-overlay {
+	opacity: 0;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #444;
+	-webkit-transition: opacity 0.4s ease, -webkit-transform 0.4s ease, clip 0.4s ease;
+	-moz-transition: opacity 0.4s ease, -moz-transform 0.4s ease, clip 0.4s ease;
+	transition: opacity 0.4s ease, transform 0.4s ease, clip 0.4s ease;
+	z-index: -1;
+	pointer-events: none;
+	cursor: default;
+}
+
+.rb-close {
+	position: absolute;
+	background-color:#CCC;
+	border-radius:50%;
+	top: 0.6em;
+	right: 0.4em;
+	width: 2em;
+	height: 2em;
+	text-indent: -9000px;
+	cursor: pointer;
+	z-index: 1000;
+}
+
+.rb-close::before {
+	content: 'x';
+	font-weight: 100;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	font-size: 2.5em;
+	line-height: 0.6;
+	text-align: center;
+	text-indent: 0px;
+}
+
+.rb-week {
+	width: 100%;
+	height: 100%;
+}
+
+.rb-week > div {
+	width: 10%;
+	height: 100%;
+	float: left;
+	position: relative;
+	padding: 3% 0;
+}
+
+.rb-week > div:first-child {
+	width: 30%;
+}
+
+.rb-week span {
+	/*padding: 5% 0;*/
+	font-size:9px;
+	font-weight: 100;
+	display: block;
+	/*margin: auto 0;*/
+	height: 30%;
+	width: 100%;
+	line-height: 0.8;
+}
+
+.rb-week span.rb-city {
+	font-weight: 700;
+	/*font-family:"Comic Sans MS", cursive;*/
+	padding: 1% 10%;
+	font-size: 1em;
+	line-height: 1.2;
+}
+
+
+.rb-week [class^="icon-"]:before {
+	font-size: 2.5em;
+	font-weight: normal;
+}
+
+.rb-week > div:first-child [class^="icon-"] {
+	opacity: 0.1;
+}
+
+/* Colors */
+
+/* Grid */
+.rb-grid li[class^="icon-"]:nth-child(1)
+{
+	 background:#d9d603; 
+	 background-image:url(../images/tabletennis.png); 
+	 background-repeat:no-repeat; 
+	 background-size:100%;
+ }
+.rb-grid li[class^="icon-"]:nth-child(2)
+{
+	 background: #F63;
+	 background-image:url(../images/cricket.png);
+	 background-repeat:no-repeat; 
+	 background-size:100%;
+
+}
+
+.rb-grid li[class^="icon-"]:nth-child(3)
+	{ 
+	 background:#3CC;
+	 background-image:url(../images/tennis.png);
+	 background-repeat:no-repeat; 
+	 background-size:100%;
+	 
+ }
+
+.rb-grid li[class^="icon-"]:nth-child(4) { 
+     background:#e2674a;
+     background-image:url(../images/basky.png);
+	 background-repeat:no-repeat; 
+	 background-size:100%; }
+.rb-grid li[class^="icon-"]:nth-child(5) { 
+	 background: #393;
+	 background-image:url(../images/footy.png);
+	 background-repeat:no-repeat; 
+	 background-size:100%;	}
+.rb-grid li[class^="icon-"]:nth-child(6) 
+{ 
+	background: #FFCC66; 
+	background-image:url(../images/Badminton.png);
+	 background-repeat:no-repeat; 
+	 background-size:100%;
+}
+.rb-grid li[class^="icon-"]:nth-child(7) {
+	 background:#CC6699;
+	 background-image:url(../images/athletics.png);
+	 background-repeat:no-repeat; 
+	 background-size:100%;	}
+.rb-grid li[class^="icon-"]:nth-child(8) { 
+	 background:#f9f881;
+	 background-image:url(../images/volley.png);
+	 background-repeat:no-repeat; 
+	 background-size:100%;
+	 }
+.rb-grid li[class^="icon-"]:nth-child(9) { 
+	background:#09F ;
+	 background-image:url(../images/chess_2.png);
+	 background-repeat:no-repeat; 
+	 background-size:100%;}
+.rb-grid li[class^="icon-"]:nth-child(10) { 
+	 background: #339966;
+	 background-image:url(../images/squash.png);
+	 background-repeat:no-repeat; 
+	 background-size:100%;	}
+
+
+
+
+
+.rb-grid li:nth-child(2) .rb-week > div:nth-child(1) { background: #33CCCC; width:30%;}
+.rb-grid li:nth-child(2) .rb-week > div:nth-child(2) { background: #2DB4B4; width:70%;}
+
+
+.rb-grid li:nth-child(3) .rb-week > div:nth-child(1) { background: #996699; width:30%; }
+.rb-grid li:nth-child(3) .rb-week > div:nth-child(2) { background: #936293; width:70%;}
+
+.rb-grid li:nth-child(4) .rb-week > div:nth-child(1) { background: #C24747; width:30%; }
+.rb-grid li:nth-child(4) .rb-week > div:nth-child(2) { background: #B83D3D; width:70%;}
+
+
+.rb-grid li:nth-child(5) .rb-week > div:nth-child(1) { background: #e2674a; width:30%; }
+.rb-grid li:nth-child(5) .rb-week > div:nth-child(2) { background: #e2674a; width:70%;}
+
+
+.rb-grid li:nth-child(6) .rb-week > div:nth-child(1) { background: #FFCC66; width:30%;}
+.rb-grid li:nth-child(6) .rb-week > div:nth-child(2) { background: #FFC247; width:70%;}
+
+
+.rb-grid li:nth-child(7) .rb-week > div:nth-child(1) { background: #99CC99; width:30%; }
+.rb-grid li:nth-child(7) .rb-week > div:nth-child(2) { background: #85C185; width:70%;}
+
+
+.rb-grid li:nth-child(8) .rb-week > div:nth-child(1) { background: #666699; width:30%;}
+.rb-grid li:nth-child(8) .rb-week > div:nth-child(2) { background: #626293 width:70%;}
+
+
+.rb-grid li:nth-child(9) .rb-week > div:nth-child(1) { background: #CC6699; width:30%;}
+.rb-grid li:nth-child(9) .rb-week > div:nth-child(2) { background: #C7578F; width:70%;}
+
+
+.rb-grid li:nth-child(10) .rb-week > div:nth-child(1) { background: #339966; width:30%;}
+.rb-grid li:nth-child(10) .rb-week > div:nth-child(2) { background: #2E8A5C; width:70%;}
+
+
+@media screen and (max-width: 63.125em) {
+	
+	.rb-grid li,
+	.rb-grid li.rb-span-2,
+	.rb-grid li.rb-span-4 {
+		width: 100%;
+		height: 10em;
+		text-align: left;
+	}
+
+	.rb-grid li[class^="icon-"]:before,
+	.rb-grid li[class*=" icon-"]:before {
+		font-size: 6em;
+		left: auto;
+		right: 0;
+		line-height: 2.5;
+	}
+
+	.rb-grid li > div {
+		text-align: center;
+	}
+}

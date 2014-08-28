@@ -1,0 +1,107 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title></title>
+    	<link rel="stylesheet" type="text/css" href="main.css" media="screen" />
+<style>
+#content1 {
+	width:70%; /* Full Width */
+	height:20px;
+	background:transparent;
+}
+
+.expand1 {
+	width:390px;
+	height:80px;
+	margin:2px 0;
+	background-image: url(images/vachas%20logo.jpg);
+	position:absolute;
+	-moz-animation:fullexpand 3s ease-out;
+	-webkit-animation:fullexpand 3s ease-out;
+	top: 240px;
+	left: 730px;
+}
+#content2 {
+	width:70%; /* Full Width */
+	height:20px;
+	background:transparent;
+}
+
+.expand2 {
+	width:390px;
+	height:30px;
+	margin:2px 0;
+	background-image: url(images/vachas%20logo2.jpg);
+	position:absolute;
+	-moz-animation:fullexpand 3s ease-out;
+	-webkit-animation:fullexpand 3s ease-out;
+	top: 320px;
+	left: 730px;
+}
+
+#content {
+	width:70%; /* Full Width */
+	height:20px;
+	background:transparent;
+}
+
+.expand {
+	width:395px;
+	height:1px;
+	margin:2px 0;
+	
+	background:#f91111;
+	position:absolute;
+	box-shadow:0px 0px 10px 1px #f91111;
+	-moz-animation:fullexpand 3s ease-out;
+	-webkit-animation:fullexpand 3s ease-out;
+	top: 340px;
+	left: 750px;
+	
+}
+/* Full Width Animation Bar */
+@-moz-keyframes fullexpand {
+	0%  { width:0px;}
+	100%{ width:45%;}	
+}
+
+@-webkit-keyframes fullexpand {
+	0%  { width:0px;}
+	100%{ width:45%;}	
+}
+</style>
+</head>
+
+<body>
+<div id="load-img">
+<img src="images/4.png" style="top:30px; position:absolute"/>
+
+<!--</div>
+<div id="header" style=" top:5px; left:450px; position:absolute;"><strong><font size="+2">Indian Institute Of Technology, Jodhpur</font></strong>
+</div>-->
+
+<div id="varchaslogo">
+<img src="images/3.jpg" style="top:110px; right:250px; position:absolute" height="150" />
+</div>
+
+<div id="background"></div>
+
+<div id="content">
+<span class="expand"></span>
+</div>
+
+<div id="content1">
+<span class="expand1"></span>
+</div>
+
+<div>
+
+<div id="content2">
+<span class="expand2"></span>
+</div>
+</div>
+</div>
+</body>
+</html>
